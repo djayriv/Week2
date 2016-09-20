@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        $("p").append(" <b>Appended text</b>.");
+    });
+
+    $("#btn2").click(function(){
+        $("form").append("<input>Appended item</input>");
+    });
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<form action="">
+  Favorite Band: <input type="text" name="Favorite Band" value=""><br>
+  Favorite Song: <input type="text" name="Favorite Song" value=""><br>
+  <input type="submit" value="Submit">
+</form>
+
+<button id="btn1">Append text</button>
+<button id="btn2">Append list items</button>
+
+</body>
+</html>
