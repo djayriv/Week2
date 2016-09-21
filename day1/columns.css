@@ -1,0 +1,22 @@
+.upper{
+    width:100%;
+    height:250px;
+}
+
+li{
+    list-style-position: center;
+    display: inline;
+    padding: 25px;
+}
+
+.cards{
+   background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a3/Giant_prominence_on_the_sun_erupted.jpg");
+   border: 2px solid lightgrey;
+   border-radius: 4px;
+   background-repeat:no-repeat;
+   height:250px;
+   background-size: 100% 100%;
+   opacity: 0.8; filter: alpha(opacity=50);
+   margin:6px;
+}
+
